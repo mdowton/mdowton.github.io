@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Three Column Layout</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>This is the content of column 1.</p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>This is the content of column 2.</p>
+        </div>
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>This is the content of column 3.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Three Column Layout</p>
+    </footer>
+
+</body>
+</html>
