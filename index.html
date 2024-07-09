@@ -3,69 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noodles Surf Cams</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
-
-        .column {
-            flex: 1;
-            max-width: 400px;
-            margin: 10px;
-        }
-
-        .iframe-container {
-            position: relative;
-            overflow: hidden;
-            padding-top: 56.25%; /* 16:9 aspect ratio for responsive iframes */
-        }
-
-        .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            position: static;
-            width: 100%;
-            bottom: 0;
-        }
-        iframe {
-            min-height: 26vh;
-            height: fit-content;
-        }
-    </style>
+    <title>Mark Dowton - Developer</title>
+    <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-
-    <header>
+    <div id="app"></div>
+    <!-- <header>
         <h1>Noodles Surfcams</h1>
     </header>
-
     <div class="container">
         <div class="column">
             <h2>Ballina River</h2>
@@ -111,7 +56,7 @@
 
     <footer>
         <p>&copy; 2024 noodles</p>
-    </footer>
+    </footer> -->
     <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
