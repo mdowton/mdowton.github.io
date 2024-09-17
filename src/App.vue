@@ -36,10 +36,8 @@
       </v-list>
     </div>
 
-    <div class="main-section">
-      <h1 class="text-white text-6xl z-10 absolute bottom-0 left-0 ml-5 mb-10">
-        DEVELOPER
-      </h1>
+    <div>
+      
     </div>
   </div>
 </template>
